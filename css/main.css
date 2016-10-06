@@ -45,6 +45,12 @@ h1{
   color: #ef4d4d;
 }
 
+h2{
+  font-size: 2em;
+  font-family: 'Bungee Inline', regular;
+  color: #ef4d4d;
+}
+
 ul{
   list-style-type: none;
   margin: 0;
