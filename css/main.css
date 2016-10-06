@@ -52,6 +52,10 @@ ul{
   overflow: hidden;
 }
 
+li{
+  float: left;
+}
+
 p{
   font-family: 'Josefin Slab', serif;
   margin: 0;
