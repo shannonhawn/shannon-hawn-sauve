@@ -32,6 +32,10 @@ header{
   text-align: center;
 }
 
+.nameplate{
+  padding:0;
+}
+
 .me{
   width: 30%;
   display: block;
@@ -41,13 +45,13 @@ header{
 
 h1{
   font-size: 2.75em;
-  font-family: 'Bungee Inline', regular;
-  color: #ef4d4d;
+  font-family: 'Ultra', serif;
+  color: white;
 }
 
 h2{
   font-size: 2em;
-  font-family: 'Bungee Inline', regular;
+  font-family: 'Raleway', sans-serif;
   color: #ef4d4d;
   text-align: center;
 }
@@ -58,17 +62,29 @@ ul{
   padding: 0;
   overflow: hidden;
   text-align: center;
+  display: block;
 }
 
 li{
+  list-style-type: none;
   padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a {
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
 }
 
 p{
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
-  line-height: 1.5em;
   font-size: 18px;
+  font-weight: 400;
   color: #ef4d4d;
   text-align: center;
   position: relative;
@@ -150,10 +166,14 @@ h1{
   font-size: 54px;
   padding-left: 0;
   text-align: center;
-  bottom: 2em;
   width: 100%;
   margin-left: 0;
   max-height: inherit;
+  padding-bottom: 2em;
+}
+
+h2{
+  padding-bottom: 1em;
 }
 
 p{
@@ -165,6 +185,10 @@ p{
 
 .social{
   width:10%;
+}
+
+.work{
+  padding-bottom: 3em;
 }
 }
 
