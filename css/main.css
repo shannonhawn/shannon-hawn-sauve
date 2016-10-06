@@ -49,6 +49,7 @@ h2{
   font-size: 2em;
   font-family: 'Bungee Inline', regular;
   color: #ef4d4d;
+  text-align: center;
 }
 
 ul{
@@ -59,7 +60,7 @@ ul{
 }
 
 li{
-  float: left;
+  float: center;
 }
 
 p{
