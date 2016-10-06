@@ -45,6 +45,13 @@ h1{
   color: #ef4d4d;
 }
 
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 p{
   font-family: 'Josefin Slab', serif;
   margin: 0;
