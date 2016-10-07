@@ -43,6 +43,11 @@ header{
   padding-top: 3em;
 }
 
+.about{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 h1{
   font-size: 2.75em;
   font-family: 'Ultra', serif;
