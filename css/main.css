@@ -9,13 +9,16 @@ html{
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust:100%;
   background-color: #b0d2d7;
 }
 
 *,*::before, *::after{
 box-sizing: inherit;
 margin:0;
+}
+
+header{
+  text-align: center;
 }
 
 body{
@@ -28,12 +31,8 @@ main{
   padding-top: 3em;
 }
 
-header{
-  text-align: center;
-}
-
 .nameplate{
-  padding:0;
+  padding: 0;
 }
 
 .me{
@@ -44,21 +43,37 @@ header{
 }
 
 .about{
-  padding-left: 2em;
-  padding-right: 2em;
+  width: 40%;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding-top: 1em;
 }
 
+/*---
 h1{
-  font-size: 2.75em;
-  font-family: 'Ultra', serif;
+  font-size: 4.75em;
+  font-family: 'Baloo Da', cursive;
   color: white;
+  padding: 0;
 }
+---*/
 
 h2{
   font-size: 2em;
-  font-family: 'Raleway', sans-serif;
-  color: #ef4d4d;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
   text-align: center;
+  padding-top: 1em;
+}
+
+h3{
+  font-size: 5em;
+  font-family: 'Lilita One', cursive;
+  color: white;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
 ul{
@@ -77,32 +92,28 @@ li{
   display: inline-block;
 }
 
-a {
+a{
   color: white;
   font-weight: 300;
   font-size: 1rem;
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-}
-
-p{
-  font-family: 'Raleway', sans-serif;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 400;
-  color: #ef4d4d;
-  text-align: center;
-  position: relative;
-  padding: 1em 0 0 1em;
-  width: 100%;
-}
-
-a{
-  color: white;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding: 1em 0 0 1em;
+  width: 100%;
 }
 
 a:hover{
@@ -123,7 +134,13 @@ footer{
 }
 
 .social{
-  width:25%;
+  width: 25%;
+}
+
+.work{
+  margin: auto;
+  width: 100%;
+  padding-left: 10%;
 }
 
 /* Small */
@@ -140,7 +157,7 @@ h1{
 }
 
 p{
-  width: 70%;
+  width: 80%;
   margin: 1em auto;
   text-align: center;
 }
