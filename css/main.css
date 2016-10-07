@@ -36,7 +36,7 @@ main{
 }
 
 .me{
-  width: 30%;
+  width: 20%;
   display: block;
   margin: auto;
   padding-top: 3em;
@@ -242,6 +242,6 @@ p{
 }
 
 .social{
-  width: 8%;
+  width: 4%;
 }
 }
