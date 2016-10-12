@@ -19,6 +19,23 @@ margin:0;
 
 header{
   text-align: center;
+  list-style: none;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+}
+
+li{
+  list-style-type: none;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 body{
@@ -34,9 +51,10 @@ main{
 h2{
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
-  color: #f8b9ae;
+  color: white;
   text-align: center;
   padding-top: 1em;
+  padding-bottom: 0;
 }
 
 h3{
@@ -46,6 +64,15 @@ h3{
   padding: 0;
   text-align: center;
   letter-spacing: 3px;
+}
+
+h4{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  color: #4b96a0;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0;
 }
 
 a{
