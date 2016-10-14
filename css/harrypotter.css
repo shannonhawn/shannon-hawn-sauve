@@ -14,7 +14,6 @@ html{
 
 *,*::before, *::after{
 box-sizing: inherit;
-margin:0;
 }
 
 header{
@@ -27,10 +26,32 @@ body{
   overflow-x: hidden;
 }
 
-main{
-  background-color: #b0d2d7;
-  padding-bottom: 3em;
-  padding-top: 3em;
+.right{
+  position: absolute;
+  top: 265px;
+  left: 700px;
+  right: 60px;
+}
+
+.left{
+  width: 60%;
+  padding-left: 50px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+}
+
+li{
+  list-style-type: none;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 h2{
@@ -50,28 +71,13 @@ h3{
   letter-spacing: 3px;
 }
 
-.description{
-  position: absolute;
-  top: 290px;
-  left: 70px;
-  width: 30%;
-  line-height: 2em;
-  font-size: 1em;
+p{
   font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
   color: white;
-}
-
-
-.poster{
-  width: 20%;
-  max-width: 700px;
-  padding-left: 20%;
-}
-
-.album{
-  width: 20%;
-  max-width: 700px;
-  padding-left: 20%;
+  padding-left: 50px;
+  line-height: 1.5em;
 }
 
 a{
@@ -94,8 +100,112 @@ footer{
   padding: 1em 2em;
   background-color: #b0d2d7;
   text-align: center;
+  padding-top: 69px;
 }
 
 .social{
   width: 25%;
+}
+
+/* Small */
+@media only screen and (min-width: 25em) {
+
+html{
+font-size: 60%;
+line-height: 1.4;
+}
+
+h3{
+  font-size: 3em;
+  text-align: center;
+}
+
+main{
+  width: 100%;
+  padding: 0;
+}
+
+.right{
+  bottom: 9px;
+  width: 60%;
+  padding-right: 30px;
+}
+
+.social{
+  width:10%;
+}
+}
+
+/* Med */
+@media only screen and (min-width: 38em) {
+
+html{
+  font-size: 110%;
+  line-height: 1.4;
+}
+
+main{
+  width: 100%;
+}
+
+h3{
+  font-size: 4em;
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
+  margin-left: 0;
+  max-height: inherit;
+}
+
+h2{
+  padding-bottom: 1em;
+}
+
+.right{
+  position: absolute;
+  top: 225px;
+  left: 320px;
+}
+
+.social{
+  width:10%;
+}
+
+.work{
+  padding-bottom: 3em;
+  padding-left: 3em;
+}
+}
+
+/* Lrg */
+@media only screen and (min-width: 60em) {
+
+html{
+  font-size: 140%;
+  line-height: 1.5;
+}
+
+header{
+  margin: 0;
+  overflow: hidden;
+}
+
+h1{
+  font-size: 64px;
+  padding-bottom: 2em;
+  width: 100%;
+  text-align: center;
+  max-height: inherit;
+}
+
+.right{
+  position: absolute;
+  top: 265px;
+  padding-right: 0px;
+  padding-left: 300px;
+}
+
+.social{
+  width: 4%;
+}
 }
