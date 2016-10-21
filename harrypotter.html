@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en-ca">
+---
+layout: default
+---
 
-<head>
-  <meta charset="utf-8">
-  <title>Harry Potter Movie Poster</title>
-  <link href="css/harrypotter.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/module.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
-  <meta name="handheldfriendly" content="true">
-  <meta name="mobileoptimized" content="240">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
 <body>
 
   <header>
@@ -27,8 +16,8 @@
     <h2>Harry Potter Movie Poster</h2>
 
   <div class="left">
-    <img src="img/hpotter.png" alt="">
-    <img src="img/vinyl.png" alt="">
+    <img src="{{site.baseurl}}/img/hpotter.png" alt="">
+    <img src="{{site.baseurl}}/img/vinyl.png" alt="">
   </div>
 
   <div class="right">
@@ -43,7 +32,7 @@
       was incorporated in Indesign. I designed a corresponding album and cover for the movie soundtrack.
       <br>
       <br>
-      <a class="link" href="hpsketches.html"> Sketches </a></p>
+      <a class="link" href={{site.baseurl}}/"hpsketches.html"> Sketches </a></p>
   </div>
 
 <footer>
@@ -62,4 +51,3 @@
 </footer>
 
 </body>
-</html>
