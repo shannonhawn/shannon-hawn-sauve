@@ -27,7 +27,7 @@ main{
 
 .work{
   width: 100%;
-  padding-left: 10%;
+  padding-left: 15%;
 }
 
 .me{
@@ -45,14 +45,6 @@ main{
   padding-top: 1em;
 }
 
-/*---
-h1{
-  font-size: 4.75em;
-  font-family: 'Baloo Da', cursive;
-  color: white;
-  padding: 0;
-}
----*/
 
 h2{
   font-size: 2em;
@@ -158,8 +150,8 @@ main{
 }
 
 .social{
-  width:10%;
-}
+  width: 20%;
+  margin: auto;
 }
 
 /* Med */
@@ -197,11 +189,6 @@ p{
 .social{
   width:10%;
 }
-
-.work{
-  padding-bottom: 3em;
-  padding-left: 3em;
-}
 }
 
 /* Lrg */
@@ -233,5 +220,10 @@ p{
 
 .social{
   width: 4%;
+}
+
+.work{
+  padding-bottom: 3em;
+  padding-left: 3em;
 }
 }
