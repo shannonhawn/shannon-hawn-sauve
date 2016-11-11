@@ -1,2 +1,3 @@
-permalink: pretty
-baseurl: "/shannonhawnsauve.ca"
+markdown: redcarpet
+baseurl: /shannon-hawn-sauve
+exclude: ['README.md']
