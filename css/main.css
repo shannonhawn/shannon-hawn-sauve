@@ -160,6 +160,9 @@ footer{
   padding: 0;
   margin: 0;
   float: left;
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
 }
 
 #navigation li{
