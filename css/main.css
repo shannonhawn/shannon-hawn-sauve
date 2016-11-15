@@ -139,6 +139,12 @@ footer{
   width: 25%;
 }
 
+.all-right{
+  padding-bottom: 720px;
+  width: 100%;
+  min-width: 350px;
+}
+
 /* Small */
 @media only screen and (min-width: 25em) {
 
