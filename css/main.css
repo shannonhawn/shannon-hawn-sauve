@@ -78,7 +78,7 @@ h3{
   letter-spacing: 3px;
 }
 
-h4{
+h2{
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -125,7 +125,7 @@ p{
   text-align: center;
   position: relative;
   padding: 1em 0 0 1em;
-  width: 100%;
+  width: 25%;
 }
 
 a:hover{
