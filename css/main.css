@@ -51,14 +51,6 @@ main{
   padding-top: 1em;
 }
 
-/*---
-h1{
-  font-size: 4.75em;
-  font-family: 'Baloo Da', cursive;
-  color: white;
-  padding: 0;
-}
----*/
 
 h2{
   font-size: 2em;
@@ -77,29 +69,6 @@ h3{
   text-align: center;
   letter-spacing: 3px;
 }
-
-.name{
-  font-size: 2em;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-
-.description{
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  font-size: 12px;
-  font-weight: 200;
-  color: white;
-  text-align: left;
-  position: relative;
-  padding: 1em 0 0 1em;
-  width: 25%;
-}
-
 
 ul{
   list-style-type: none;
@@ -129,23 +98,22 @@ a{
   padding: 0;
 }
 
-p{
+.description{
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  font-size: 14px;
-  font-weight: 400;
-  color: white;
+  font-size: 8px;
+  font-weight: 200;
+  color: red;
   text-align: left;
-  position: relative;
   padding: 1em 0 0 1em;
-  width: 100%;
+  width: 25%;
 }
 
 a:hover{
   color: white;
 }
 
-.bio{
+.about{
   display: block;
   margin: 0;
   width: 100%;
@@ -162,15 +130,10 @@ footer{
   width: 25%;
 }
 
-.all-right{
-  padding-bottom: 720px;
-  width: 100%;
-  min-width: 350px;
-}
-
 /* Page Layout */
+
 #gallery {
-  width:600;
+  width:600%;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -225,12 +188,6 @@ h3{
   text-align: center;
 }
 
-p{
-  width: 80%;
-  margin: 1em auto;
-  text-align: center;
-}
-
 main{
   width: 100%;
   padding: 0;
@@ -266,13 +223,6 @@ h2{
   padding-bottom: 1em;
 }
 
-p{
-  font-size: 24px;
-  width: 100%;
-  text-align: center;
-  padding: 1em 0 0 1em;
-}
-
 .social{
   width:10%;
 }
@@ -294,20 +244,6 @@ html{
 header{
   margin: 0;
   overflow: hidden;
-}
-
-h1{
-  font-size: 64px;
-  padding-bottom: 2em;
-  width: 100%;
-  text-align: center;
-  max-height: inherit;
-}
-
-p{
-  text-align: center;
-  bottom: 2em;
-  padding: 1em 0 0 1em;
 }
 
 .social{
