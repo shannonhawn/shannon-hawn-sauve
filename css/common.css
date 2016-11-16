@@ -19,6 +19,7 @@ body{
   margin:0;
 }
 
+
 main{
   background-color: #b0d2d7;
   padding-bottom: 3em;
@@ -64,6 +65,16 @@ h3{
   letter-spacing: 3px;
 }
 
+.description{
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: white;
+  margin-left: 25%;
+  width: 50%;
+  text-align: left;
+}
+
 ul{
   list-style-type: none;
   margin: 0;
@@ -90,18 +101,6 @@ a{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-p{
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 400;
-  color: white;
-  text-align: center;
-  position: relative;
-  padding: 1em 0 0 1em;
-  width: 100%;
 }
 
 a:hover{
@@ -135,12 +134,6 @@ line-height: 1.4;
 
 h3{
   font-size: 3em;
-  text-align: center;
-}
-
-p{
-  width: 80%;
-  margin: 1em auto;
   text-align: center;
 }
 
@@ -179,13 +172,6 @@ h2{
   padding-bottom: 1em;
 }
 
-p{
-  font-size: 24px;
-  width: 100%;
-  text-align: center;
-  padding: 1em 0 0 1em;
-}
-
 .social{
   width:10%;
 }
@@ -212,12 +198,6 @@ h1{
   max-height: inherit;
 }
 
-p{
-  text-align: center;
-  bottom: 2em;
-  padding: 1em 0 0 1em;
-}
-
 .social{
   width: 4%;
 }
@@ -226,4 +206,5 @@ p{
   padding-bottom: 3em;
   padding-left: 3em;
 }
+
 }

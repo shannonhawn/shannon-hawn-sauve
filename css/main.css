@@ -51,6 +51,14 @@ main{
   padding-top: 1em;
 }
 
+.description{
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2em;
+  font-size: 1em;
+  color: #0a2739;
+  margin: 10px 10px 20px 0;
+}
+
 
 h2{
   font-size: 2em;
@@ -96,17 +104,6 @@ a{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.description{
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  font-size: 8px;
-  font-weight: 200;
-  color: red;
-  text-align: left;
-  padding: 1em 0 0 1em;
-  width: 25%;
 }
 
 a:hover{
