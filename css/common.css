@@ -158,14 +158,6 @@ main{
   width: 10%;
   margin: auto;
 }
-
-.top{
-    font-size: 64px;
-    padding-bottom: 2em;
-    width: 100%;
-    text-align: center;
-    max-height: inherit;
-}
 }
 
 /* Med */
@@ -227,5 +219,4 @@ h1{
   padding-bottom: 3em;
   padding-left: 3em;
 }
-
 }
