@@ -160,6 +160,15 @@ main{
   margin: auto;
 }
 
+.top{
+    font-size: 64px;
+    padding-bottom: 2em;
+    width: 100%;
+    text-align: center;
+    max-height: inherit;
+}
+}
+
 /* Med */
 @media only screen and (min-width: 38em) {
 
@@ -186,7 +195,7 @@ h2{
 }
 
 .social{
-  width:10%;
+  width:7%;
 }
 }
 
