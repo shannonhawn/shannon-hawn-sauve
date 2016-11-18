@@ -69,7 +69,16 @@ h3{
   letter-spacing: 3px;
 }
 
-.description, p{
+p{
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  width: 75%;
+}
+
+.description{
   font-family: 'Raleway', sans-serif;
   line-height: 1.5em;
   font-size: 1em;
@@ -137,7 +146,7 @@ line-height: 1.4;
 }
 
 h3{
-  font-size: 3em;
+  font-size: 6em;
   text-align: center;
 }
 
@@ -147,7 +156,7 @@ main{
 }
 
 .social{
-  width: 20%;
+  width: 10%;
   margin: auto;
 }
 
