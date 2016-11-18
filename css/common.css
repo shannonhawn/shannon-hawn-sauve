@@ -133,8 +133,12 @@ line-height: 1.4;
 }
 
 h3{
-  font-size: 4em;
+  font-size: 2em;
+  font-family: 'Bungee Inline', cursive;
+  color: white;
+  padding: 0;
   text-align: center;
+  letter-spacing: 3px;
 }
 
 main{
