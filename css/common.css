@@ -19,11 +19,6 @@ body{
   margin:0;
 }
 
-.img-flex{
-  display: block;
-  width: 25%;
-}
-
 main{
   background-color: #b0d2d7;
   padding-bottom: 3em;
@@ -66,15 +61,6 @@ h3{
   padding: 0;
   text-align: center;
   letter-spacing: 3px;
-}
-
-p{
-  font-family: 'Raleway', sans-serif;
-  line-height: 1.5em;
-  font-size: 1em;
-  color: white;
-  text-align: center;
-  width: 75%;
 }
 
 .description{
