@@ -46,6 +46,10 @@ main{
   padding-top: 1em;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
 
 h2{
   font-size: 2em;
