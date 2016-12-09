@@ -43,10 +43,11 @@ main{
   padding-top: 3em;
 }
 
-.link{
-  width: 20%;
-  padding-top: 1em;
-  padding-left: 30%;
+.robot{
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding-top: 3em;
 }
 
 .about{
