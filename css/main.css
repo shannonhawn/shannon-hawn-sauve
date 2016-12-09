@@ -43,12 +43,14 @@ main{
   padding-top: 3em;
 }
 
-.404{
-  width: 50%;
+.link{
+  width: 20%;
   display: block;
   text-align: center;
   margin: auto;
   padding-top: 1em;
+  background-color: white;
+  padding-left: 10%;
 }
 
 .about{
