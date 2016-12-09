@@ -43,6 +43,13 @@ main{
   padding-top: 3em;
 }
 
+.404{
+  width: 1%;
+  display: block;
+  margin: auto;
+  padding-top: 3em;
+}
+
 .about{
   width: 50%;
   display: block;
