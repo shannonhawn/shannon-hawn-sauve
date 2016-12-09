@@ -45,12 +45,8 @@ main{
 
 .link{
   width: 20%;
-  display: block;
-  text-align: center;
-  margin: auto;
   padding-top: 1em;
-  background-color: white;
-  padding-left: 10%;
+  padding-left: 30%;
 }
 
 .about{
