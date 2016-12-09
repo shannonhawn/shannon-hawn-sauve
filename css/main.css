@@ -44,10 +44,9 @@ main{
 }
 
 .robot{
-  width: 100%;
-  display: block;
-  margin: auto;
+  width: 80%;
   padding-top: 3em;
+  padding-left: 5em;
 }
 
 .about{
